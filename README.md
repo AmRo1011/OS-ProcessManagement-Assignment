@@ -48,6 +48,6 @@ Explanation of Linker & Loader
 
 👨‍💻 Author
 
-Amr Abdelrahman
+Abdelrahman Abdelnaby
 CSE233 – Operating Systems
 Alamein University
