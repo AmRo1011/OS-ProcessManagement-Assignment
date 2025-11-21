@@ -1,0 +1,14 @@
+Role of the Linker ?
+
+The linker combines one or more object files into a complete executable or library. The primary responsibilities of the linker are: Resolve external symbols which are functions or variables that are declared in one file and defined in another file. Merge the text and data sections of different object files. Optionally link to static or shared libraries. The linker is necessary because otherwise, you could not call functions in other files from a given file since you only have a .o file of the other file.
+
+Role of the Loader ?
+
+What is the Loader?
+The loader is the part of the operating system that loads and prepares an executable file for execution.
+It:
+Allocates virtual memory into regions (code, data, stack, heap) and creates a process.
+Memory-maps the executable and required shared libraries.
+Performs relocations and dynamic symbol resolution, if required.
+Sets up the initial stack, and then jumps to the program entry point (main).
+The ldd command lets us observe which shared libraries the loader will load when we run a given program.
